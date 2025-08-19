@@ -2,4 +2,4 @@
 
 ## What is Git?
 
-- An opensorce version control system
+- An opensorce version control system.
