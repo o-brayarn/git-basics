@@ -79,4 +79,4 @@ Use `git status` to identify conflicts and `git log` to review merge history.
 
 ## Git CheatSheet
 
--[Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
