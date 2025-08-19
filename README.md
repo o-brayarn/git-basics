@@ -11,7 +11,7 @@
 - Reverting to previous versions
 - backup and recovery
 
-# Git Basics
+## Git Basics
 
 - cloning - Copy a remote repository to your local machine. `git clone <repository-url>`
 - branching - Create a separate line of development. `git branch <branchname>`
