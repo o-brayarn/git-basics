@@ -18,6 +18,10 @@
 - checkout - Switch from one branch to another. `git checkout <branchname>`
 - add - Stage the changes made to your code. `git add <filename>` `git add .`
 - commit - Saving the changes to the local repo with some descriptive message. `git commit -m "message here"`
-- push
-- pull
-- forks
+- push - Uplodading local commits to the remote repository. `git push -u origin <branchname>` when you're creating the branch for the first time to the remote repo. `git push` to an already created branch.
+- pull - Fetch and merge changes from a remote repo to your local copy. `git pull` when working from the same branch. `git pull origin <branchname>` when fetching from a different branch.
+- forks - 
+
+## Git workflows
+
+- 
