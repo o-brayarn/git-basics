@@ -1,12 +1,14 @@
 # Git and GitHub
 
-## What is Git?
+## What is Git? And What is GitHub?
 
-- An open-source and free source control management (SCM). Used to manage changes to files over time. It also allows you to recall specific versions later or even go back to see what those changes were.
+- Git is an open-source and free source control management (SCM). Used to manage changes to files over time. It also allows you to recall specific versions later or even go back to see what those changes were.
+- GitHub is a platform that hosts Git-based repositories. That is, it provides a centralized location for hosting Git repositories and facilitates collaboration.
+- Other popular Git platforms include **GitLab**, **BitBucket**, and **Azure DevOps**.
 
 ## Git and GitHub Key Concepts and Benefits
 
-1. Tracking Changes:
+1. Tracking Changes and who makes them:
 
    - Meticulously records every modification to a file or set of files, creating a history of changes.
 
@@ -47,7 +49,7 @@
 - **clone** – Copy a remote repository to your local machine.
   `git clone <repository-url>`
 - **branching** – Create separate lines of development.
-  `git branch <branch-name>`
+  `git branch <branch-name>`. Branch `main` is more like the central truth of the repo, meaning that the idea of branching is to eventually merge back to the `main` branch and update it.
 - **checkout** - Switch from one branch to another. `git checkout <branchname>`
 - **add** – Stage changes to be included in the next commit.
   `git add <filename>`. If the changes are in a single file, simply use `git add .`
@@ -77,6 +79,20 @@
 
 Use `git status` to identify conflicts and `git log` to review merge history.
 
+## Best Practices
+
+- Use `.gitignore` to exclude large datasets or sensitive files.
+- Write descriptive commit messages (e.g., _“Fixed missing value handling in preprocessing”_).
+- Regularly pull updates to stay in sync with your team.
+- Never push to the main branch to avoid conflicts
+
 ## Git CheatSheet
 
 - [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Writing better git commit messages](https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/)
+- [Getting started with Git and GitHub](https://archaeogeek.github.io/gettingstartedwithgit/intro/gitinstall.html) - Everything from installing **git** to **pull requests** to recovering from disasters.
+
+### For data analysists and data scientists
+
+- [Git for data analysists and data scientists](https://youtu.be/jrsIHDGHfRc?si=Yw85Koeok4UflG9P)
+- [Bonus Git for data science](https://youtu.be/_0rHU6qAQe0?si=nYrp7X5u6wLzIL2r)
